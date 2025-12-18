@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "description" content="Quiz interativo para programadores">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz</title>
+        <link rel="shortcut icon" href="Icons-Land-Vista-Style-Emoticons-Study.256.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+             <div><center><h1>Quiz interativo para programadores</h1></center></div>
+             <div><center><p>Quer saber o seu nível de programação? Teste seus conhecimentos e ao final veja o resultado!</p></center></div>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Como funciona esse quiz?</h2>
+                <p><strong>Esse quiz foi desenvolvido para testar os seus conhecimentos</strong> em programação, desde de lógica, linguagens de progração e mais.</p>
+                <p>Você encontrará diferentes perguntas, incluindo múltiplha escolha, texto e pergunta de data. <br> Desafie-se com esse quiz!</p>
+                <p>Você poderá encontrar alguns acrônimos como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas a desenvolvimento web </p>
+                <p><em>Está pronto?</em></p>
+            </section>
+            <!--Múltipla Escolha-->
+            <section><h2>Pergunta 1: Qual a linguagem que é usada para estruturar páginas web?</h2></section>
+            <form>
+                <input type="radio" value="Java" id="p1a" name="pergunta1">
+                <label for="p1a">Java</label>
+                <br><input type="radio" value="Python" id="p1b" name="pergunta1">
+                <label for="p1b">Python</label>
+                <br><input type="radio" value="HTML" id="p1c" name="pergunta1">
+                <label for="p1c">HTML</label>
+                <br><input type="radio" value="Php" id="p1d" name="pergunta1">
+                <label for="p1d">Php</label>
+            </form>
+            <!--Pergunta 2: Texto-->
+            <section>
+                <h2>Pergunta 2: Qual o nome do inventor do termo WWW?</h2>
+                <form >
+                    <input type="text" id="p2" name="pergunta2" placeholder="Sua resposta aqui...">
+                </form>
+            </section>
+            <!--Pergunta 3: Senha-->
+            <section>
+                <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+                <form >
+                    <input type="password" id="p3" name="pergunta3" placeholder="Digite a senha...">
+                </form>
+            </section>
+            <!--Pergunta 4: Ano do HTML-->
+            <section>
+                <h2>Pergunta 4: Em que ano o HTML foi criado?</h2>
+                <form >
+                    <input type="date" id="p4" name="pergunta4" placeholder="Insira uma data">
+                </form>
+           <!--Pergunta 5: Escolha-->
+            </section>
+            <h2>Pergunta 5: Em que contexto mundial surgiu a internet?</h2>
+            <form>
+                <input type="radio" id="p5a" name="pergunta5" value="Guerra Fria">
+                <label for="p5a">Guerra Fria</label><br>
+                <input type="radio" id="p5b" name="pergunta5" value="Primeira Guerra mundial">
+                <label for="p5b">Primeira Guerra mundial</label><br>
+                <input type="radio" id="p5c" name="pergunta5" value="Revolução Francesa">
+                <label for="p5a">Revolução Francesa</label><br>
+                <input type="radio" id="p5d" name="pergunta5" value="Crise de 1929">
+                <label for="p5d">Crise de 1929</label>
+            </form>
+            <!--Pergunta 6: Seleção Múltipla-->
+            <section>
+                <h2>Pergunta 6: No que se trata a programação marque as alternativas corretas</h2>
+                <form >
+                    <input type="checkbox" id="p6a" name="pergunta6" value="HTML é uma linguagem de programação">
+                    <label for="p6a">HTML é uma linguagem de programação</label> <br>
+                    <input type="checkbox" id="p6b" name="pergunta6" value="Java e JavaScript são a mesma coisa">
+                    <label for="p6b">Java e JavaScript são a mesma coisa</label> <br>
+                    <input type="checkbox" id="p6c" name="pergunta6" value="A linguagem Python foi lançada em 1991">
+                    <label for="p6c">A linguagem Python foi lançada em 1991</label> <br>
+                    <input type="checkbox" id="p6d" name="pergunta6" value="ARPANET foi a primeira internet">
+                    <label for="p6d">ARPANET foi a primeira internet</label> <br>
+                    <input type="checkbox" id="p6e" name="pergunta6" value="A linguagem C++ é uma extensão da linguagem C">
+                    <label for="p6e">A linguagem C++ é uma extensão da linguagem C</label> <br>
+                </form>
+            </section>
+            <!--Pergunta 7:-->
+            <section>
+                <h2>Pergunta 7: Escreva abaixo a definição do que é uma array</h2>
+                <form>
+                    <input type="text" id="p7" name="pergunta7" placeholder="Digite aqui a sua resposta...">
+                </form>
+            </section>
+            <!--Pergunta 8: Menu Suspenso-->
+            <section>
+                <h2>Pergunta 8: Selecione o tipo de estrutura de dados que em Python é imutável</h2>
+                <form>
+                    <select name="pergunta8" id="p8">
+                        <option value="Listas">Listas</option>
+                        <option value="Dicionários">Dicionários</option>
+                        <option value="Tuplas">Tuplas</option>
+                        <option value="Conjuntos">Conjuntos</option>
+                    </select>
+                </form>
+            </section>
+            <!--Pergunta 9-->
+            <section>
+                <h2>Pergunta 9: Observe a imagem abaixo e digite qual é a linguagem</h2>
+                <form>
+                    <img src="images.png" alt="Logotipo de uma linguagem de programação"><br>
+                    <input type="text" id="p9" name="pergunta9" placeholder="Digite aqui...">
+                </form>
+            </section>
+                <div style="height: 230px;"></div>
+            <!--Listas de Respostas-->
+            <section>
+                <h2>Verifique as suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para revelar as respostas</summary>
+                    <ul>
+                        <li>Resposta 1: HTML</li>
+                        <li>Resposta 2: Tim Berners-Lee</li>
+                        <li>Resposta 3: Para ser senha forte tem que ter: no mínimo 12 caracteres entre letras maiúsculas, minúsculas, símbolos e números</li>
+                        <li>Resposta 4: 1991</li>
+                        <li>Resposta 5: Guerra Fria</li>
+                        <li>Resposta 6: A linguagem Python foi lançada em 1991, ARPANET foi a primeira internet, A linguagem C++ é uma extensão da linguagem C</li>
+                        <li>Resposta 7: Em programação, um array (arranjo ou vetor) é uma estrutura de dados fundamental que funciona como um recipiente para armazenar uma coleção de elementos do mesmo tipo (como números ou textos) de forma organizada</li>
+                        <li>Resposta 8: Tuplas</li>
+                        <li>Resposta 9: HTML</li>
+                    </ul>
+            </details>
+            </section>
+            <div style="height: 100px;"></div>
+            </section>
+            <!--Tabela de Pontuação-->
+            <section>
+                 <h2>Tabela de Pontuação:</h2>
+                 <table border="1">
+                    <thead>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td>Não desista! Cada dia há uma oportunidade de melhorar um pouco mais</td>
+                        </tr>    
+                        <tr>                        
+                            <td>3-6</td>
+                            <td>A base está sendo formada, continue</td>
+                        </tr>    
+                        <tr>
+                        <td>7-10</td>
+                            <td>Parabéns, você foi muito bem!</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Parabéns a todos vocês, boa sorte!</td>
+                        </tr>
+                    </tfoot>
+                 </table>
+            </section>
+            <div style="height:65px;"></div>
+            <!--Formulário de Feedback-->
+            <section>
+                <h2>Envie-nos o seu Feedback</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações de contato</legend>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="Email">Email:</label>
+                        <input type="email" id="Email" name="Email"><br>
+                        <label for="Comentários">Comentário:</label><br>
+                        <textarea name="Comentários" id="Comentários" cols="25" rows="5" placeholder="Digite aqui seu feedback..."></textarea><br>
+                        <button onclick="alert('Feedback Enviado!')">Clique aqui para enviar</button>
+                </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Quiz de programação. Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>
