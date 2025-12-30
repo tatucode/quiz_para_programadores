@@ -1,13 +1,11 @@
 # Quiz Interativo para Programadores
 
-Este é um projeto desenvolvido com foco em aprendizdo e prática de HTML, com pequenos ajustes em CSS para organização visual.
-
-O objetivo do projeto é simular um quiz interativo voltado para programadores, abordando conceitos básicos de programação, lógica e história da computação.
+Projeto de um quiz simples desenvolvido para praticar conceitos de Front-end.
 
 # Tecnologias utilizadas
   - HTML5
-  - CSS3 (uso mínimo, apenas para espaçaento e organização)
-  - JavaScript (Apenas para adicionar um botão interativo)
+  - CSS3 
+  
 
 # Funcionalidades
 - Perguntas de múltipla escolhas
@@ -17,16 +15,11 @@ O objetivo do projeto é simular um quiz interativo voltado para programadores, 
 - Formulário de feedback
 
 # Objetivo do projeto
-Este projeto faz parte do meu processo de aprendizado em desenvolvimento web.
-A ideia é evoluir esse projeto gradualmente, aplicando boas práticas e novas tecnologias conforme o aprendizado avança.
+Criar a estrutura de um quiz em HTML e aplicar estilização com CSS para melhorar a interface e a experiência do usuário.
 
-# Próximas melhorias planejadas
-- Estilização completa com CSS
-- Responsividade
-- Implementação de JS para:
-  - Cálculo de pontuação 
-  - Exibição dinâmica de resultados
-  - Ranking de participantes
+# Status do projeto
+ - Em evolução
+Próximo passo: implementação de interatividade com JavaScript
 
 # Observação
 Este projeto foi desenvolvido acompanhado de aulas e materiais de estudo, porém com modificações próprias para reforçar o aprendizado e a autonomia na construção do código
